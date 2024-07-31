@@ -26,10 +26,15 @@ console.log("Age is: 22");
 console.log("My Address: Saste Complex,Pune");
 
 console.log("Pincode is: 412105");
-
+  
 console.log("Gender is: Female");
 
 console.log("isMarried: false");
+
+
+
+
+
 
 
 
