@@ -19,6 +19,7 @@ multiply(8, 9);
 multiply(100, 300);
 multiply(123.67, 90.77);
 multiply(70);
+multiply(34,56);
 
 
 console.log("======== function with no arguments and return value =============");
