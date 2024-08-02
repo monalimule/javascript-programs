@@ -1,4 +1,4 @@
-
+console.log("===================Normal Function=====================");
 
 console.log("======================== Bank 1 =========================");
 function bankDetails(bankName, accountNum, location, pinCode) {
