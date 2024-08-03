@@ -94,7 +94,7 @@ var result = greet.split(" ");
 console.log(result);
 console.log("Total number of words: ", result.length);
 
-s
+
 
 var myLove = "I love only JavaScript";
 var result = myLove.split(" ");

@@ -1,5 +1,5 @@
 
-
+console.log(`============= Function with no para and no return value =============`);
 function stringBasics() {
     console.log(`My dream company is: "Infosys" ` );
     var hobbyOne = "Folk dance"
