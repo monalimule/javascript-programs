@@ -16,6 +16,8 @@ voteEligible(-10,"Akshay");
 voteEligible(200,"Jahnavi");
 voteEligible(0,"Sanket");
 voteEligible(null,"Shrikant");
+
+
 console.log("======================= Height Eligibility ==============================");
 var heightEligible =function (height,person){
     if (height>=160) {
