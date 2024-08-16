@@ -14,25 +14,25 @@ console.log("Character at index 0 is: ", charAt0);
 
 
 
-console.log("==== Last index character ====");
+console.log("============ Last index character =============");
 var lastChar= greet.charAt(greet.length-1);
 console.log("Character at last index is: ", lastChar);
 
 
 
-console.log("============= toUpperCase() ===============");
+console.log("=============== toUpperCase() =================");
 var upperCaseString = greet.toUpperCase();
 console.log("Result is: ", upperCaseString);
 
 
 
-console.log("============= toLowerCase() ===============");
+console.log("================ toLowerCase() ===============");
 var lowerCaseString = greet.toLowerCase();
 console.log("Result is: ", lowerCaseString);
 
 
 
-console.log("============= concat() ===============");
+console.log("================= concat() ==================");
 var firstName = "Jenny";
 var lastName = " Gates";
 var concatString = firstName + lastName;
@@ -42,7 +42,7 @@ console.log("Concat string using concat() :",result );
 
 
 
-console.log("============= indexOf() ===============");
+console.log("================= indexOf() ==================");
 var result = greet.indexOf("M");
 console.log("Index of character M is: ", result);
 
@@ -51,13 +51,13 @@ console.log("Index of character Z is: ", result);
 
 
 
-console.log("============= replace() ===============");
+console.log("================ replace() ===================");
 var result = greet.replace("Morning", "Afternoon");
 console.log("After replace: ", result);
 
 
 
-console.log("============= trim() ===============");
+console.log("================== trim() ===================");
 var day = "   Saturday    ";
 var dayLength = day.length;
 console.log("Before string trim length is: ", dayLength);
@@ -73,7 +73,7 @@ console.log(dayAfterTrim);
 
 console.log("Total removed character: leading and trailing- ",dayLength- dayAfterTrimLength);
 
-console.log("============= includes() ===============");
+console.log("================= includes() ===================");
 var result = greet.includes("Mor");
 console.log(result);
 var result = greet.includes("mor");
@@ -81,7 +81,7 @@ console.log(result);
 
 
 
-console.log("============= slice() ===============");
+console.log("==================== slice() ===================");
 var result = greet.slice(3, 11);
 console.log(result);
 var result = greet.slice(5);
@@ -89,7 +89,7 @@ console.log(result);
 
 
 
-console.log("============= split() ===============");
+console.log("================== split() ====================");
 var result = greet.split(" ");
 console.log(result);
 console.log("Total number of words: ", result.length);
