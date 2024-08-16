@@ -16,7 +16,7 @@ console.log(`square of word length is: ${result}`);
 var result=squareOfWordLength("Web Development Smart");
 console.log(`square of word length is: ${result}`);
 
-console.log("======================= 2st Function =====================");
+console.log("======================= 2st Function =======================");
 givenString="i am Angular Developer";
 console.log("The Given String is: ",givenString);
 
