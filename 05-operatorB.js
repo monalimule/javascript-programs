@@ -18,7 +18,7 @@ isEvenOrOddNum(44);
 isEvenOrOddNum(0);
 isEvenOrOddNum(101);
 
-console.log("===================== Word length Even or Odd =======================");
+console.log("==================== Word length Even or Odd =====================");
 function wordLength(word){
     var len=word.length;
     var result=len%2==0?"EVEN":"ODD";
