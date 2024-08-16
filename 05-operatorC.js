@@ -1,6 +1,6 @@
 
 
-console.log("=================== Interview Eligibility =================");
+console.log("================== Interview Eligibility =================");
 
 function interviewCheck(gradScore,hscScore,sscScore,candidateName){
     var result = gradScore>=70|| hscScore>=80 || sscScore>90
