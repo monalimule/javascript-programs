@@ -36,7 +36,7 @@ console.log(`Sumation is: ${sum}`);
 
 
 
-console.log(`============ write a function to get the sum of the cube numbers from 1 to 5 =========== `);
+console.log(`============= write a function to get the sum of the cube numbers from 1 to 5 =========== `);
 var sumCube = 0;
 for (let index = 1; index <=5; index++) {
     sumCube = sumCube + index * index * index;
