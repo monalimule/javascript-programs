@@ -3,7 +3,7 @@
 const array = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
 console.log("Given Array:", array);
 
-console.log("=====Find the total elements available or length and log on console:=====");
+console.log("===== Find the total elements available or length and log on console:=====");
 console.log("Total elements:", array.length);
 
 console.log("=====Log the first element and last element in arrayNumbers and log on console:=====");
