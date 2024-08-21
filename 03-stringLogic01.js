@@ -92,3 +92,5 @@ const stg3 = "Java";
 console.log(`The reverse of the string "${stg1}" is:${ reverseStringManually(stg1)}`);
 console.log(`The reverse of the string "${stg2}" is:${ reverseStringManually(stg2)}`);
 console.log(`The reverse of the string "${stg3}" is:${ reverseStringManually(stg3)}`);
+
+
