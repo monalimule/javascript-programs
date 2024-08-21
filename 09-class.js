@@ -8,9 +8,16 @@ class Student{
         this.city = city;
     }
     //Member Function
+    display(){
+        console.log(`Student Details -> Full Name ${this.fullName}, Graduation: ${this.graduation}, College Name: ${this.collegeName}, City: ${this.city}`);
+    }
 }
 
 const std1 = new Student("Sid Gates", 2024, "Clg-one", "Pune");
-console.log(std1);
+std1.display();
+
 const std2 = new Student("Jenny Many", 2023, "Clg-two", "Mumbai");
-console.log(std2);
+std2.display();
+
+const std3 = new Student("Elon Musk", 2019, "C.O.E.P", "LA");
+std3.display();
