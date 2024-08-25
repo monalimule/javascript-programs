@@ -1,0 +1,14 @@
+
+{
+    "id": 11,
+    "fullName": "Elon Musk",
+    "isMarried": true,
+    "city": null,
+    "mobiles": ["9876 5432 12","1234 5678 89","4578 3267 56"],
+    "address": {
+        "flatNumber": "B2",
+        "society": "Horizon",
+        "street": "Wakad",
+        "state": "MH"
+    }
+}
