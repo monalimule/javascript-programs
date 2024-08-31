@@ -46,7 +46,7 @@ function wordCount(str) {
     return words.length;
 }
 
-const string = ["JavaScript The language of Internet",
+const stringNew = ["JavaScript The language of Internet",
                 "Enhance Your Learning Journey with Exclusive Add-ons",
                 "Beyond frameworks,Beyond Imagination",
                 "I am passionate Software Developer"
