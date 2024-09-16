@@ -47,8 +47,11 @@ var person = {
     profession: "Developer"
 };
 
-var propertyName = "age";
-console.log(person[propertyName]);
+console.log("Given object is:",person);
+const{profession} = person;
+console.log("Dynamic access object property- profession:", profession);
+
+
 
 console.log(`===================== 5.WAP to How to modify an object's property in an array object in JS ====================`);
 var employee = {
@@ -59,16 +62,109 @@ var employee = {
         salary: 50000
 
 };
-function updateEmployeeSalary(id,newSalary) {
-    for (var i = 0; i< employee.length; i++) {
-        if (employee[i].id == id) {
-            employee[i].salary = newSalary;
-            return;
-        }
-    }
+console.log("Given object is:",employee);
+
+employee.position = "Software Engineer";
+employee.salary = 80000;
+const{position,salary} = employee;
+console.log("Updated Position:", position);
+console.log("Updated Salary:", salary);
+
+
+console.log(`===================== 6.How to get the last item of JavaScript object? ====================`);
+console.log(`====================== 6.1. using Object.keys() Method =====================`);
+var car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2020,
+    color: "blue"
 }
-updateEmployeeSalary(1,60000);
-console.log(employee);
+// Using Object.keys()
+var keys = Object.keys(car);
+var lastkey = keys[keys.length - 1];
+console.log("Last property using keys:", lastkey, car[lastkey]);
+
+console.log(`====================== 6.2. using Object.entries() Method =====================`);
+var car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2020,
+    color: "blue"
+}
+// Using Object.entries()
+var entries = Object.entries(car);
+var lastEntry = entries[entries.length - 1];
+console.log("Last property using entries:", lastEntry[0], lastEntry[1]);
+
+
+console.log(`========== 7.How to use array that include & check an object against a property of an object? =========`);
+var students = [
+    { id: 1, name: "John Doe", grade: "A" },
+    { id: 2, name: "Jane Smith", grade: "B" },
+    { id: 3, name: "Samuel Green", grade: "C "}
+];
+function checkStudentExists(id) {
+    return students.filter(student => student.id == id).length > 0;
+}
+console.log("Given Object Is:",students);
+
+console.log(checkStudentExists(2));
+console.log(checkStudentExists(4));
+
+
+console.log(`================ 8.How to add an object to an array in JavaScript? ================`);
+var fruits = [`apple`, `banana`, `orange`];
+var newFruits = {
+    name: `grape`,
+    color: `purple`
+};
+fruits.push(newFruits);
+console.log(fruits);
+
+
+
+console.log(`============ 9.How to remove duplicates from an array of objects using JavaScript? =============`);
+var students = [
+    { id: 1, name: "John Doe" },
+    { id: 2, name: "Jane Smith" },
+    { id: 1, name: "John Doe" },
+    { id: 3, name: "Samuel Green" },
+    { id: 2, name: "Jane Smith" }
+];
+
+function removeDuplicates(arr) {
+    return arr.filter((student, index, self) =>
+        index === self.findIndex((t) =>
+            t.id === student.id && t.name.trim() === student.name.trim() // Use trim() to remove extra spaces
+        )
+    );
+}
+
+var uniqueStudents = removeDuplicates(students);
+console.log(uniqueStudents);
+
+
+
+
+console.log(`============ 10.How to get a subset of a javascript objects properties? =============`);
+var person = {
+    firstName: `John`,
+    lastName: `Doe`,
+    age: 30,
+    city: `Pune`,
+    country: `India`
+};
+
+var{firstName, lastName, age, city, country} = person;
+console.log(firstName, lastName, age, city, country);
+
+
+
+
+
+
+
+
 
 
 
